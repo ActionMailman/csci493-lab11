@@ -1,0 +1,12 @@
+Dear TA, 
+
+This is our lab 11 mail security message.
+We generate a GPG key pair for our group and are testing signing+encryption.
+
+Group member:
+- Jun Wang
+- Viyan Poonamallee
+- Zhipeng Yang
+
+Best, 
+CSCI493 Group 2
