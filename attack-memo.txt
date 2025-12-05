@@ -1,0 +1,3 @@
+The attack was a cross site scripting attack that inserted HTML tags that use JavaScript to exfiltrate the administrator cookie,
+which can then be used in conjunction with php code to send HTTP data with full administrator privileges.
+This inserted code takes advantage of poor input sanitization to place code which is interpreted and run by the browser. 

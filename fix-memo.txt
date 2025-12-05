@@ -1,0 +1,4 @@
+As a simple patch against the insertion of HTML, the new sanitization function removes all ankle brackets from user inputs.
+However, this is likely not enough, as regex in general is built to filter natural language and likely will not hold up against more sophisticated XSS attacks.
+It would be preferable to use a proper and standards-compliant filter library such as HTML Purifier.
+For now, however, this is more secure than the previous sanitization functions.
